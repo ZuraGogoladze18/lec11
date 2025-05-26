@@ -1,0 +1,13 @@
+@media (max-width: 1100px) {
+    /* img-section  */
+    .img-section{
+    grid-template-columns:repeat(2 1fr) ;
+    grid-template-areas: 
+    "card1 card2"
+    "card3 card4"
+    "card5 card6";
+    }
+    .none1180{
+        display: none;
+    }
+}

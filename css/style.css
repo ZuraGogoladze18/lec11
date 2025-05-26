@@ -1,0 +1,114 @@
+    .container{
+        max-width: 1440px;
+        width: 100%;
+        margin: auto;
+    }
+    /* section1  */
+    .head-section{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        padding: 70px;
+    }
+    .head-button1{
+        font-family: Arial;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+letter-spacing: 0%;
+vertical-align: middle;
+
+    }
+    .head-button2{
+font-family: Arial;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+
+    }
+    /* img-section */
+    .img-section{
+    display: grid;
+    grid-template-columns:repeat(3 1fr) ;
+    grid-template-rows: repeat(3 346px);
+    grid-template-areas: 
+    "card1 card2 card3"
+    "card4 card5 card6"
+    "card7 card8 card9" ;
+    gap: 20px 40px;
+    }
+    .card-img{
+        object-fit: cover;
+    }
+    .imd-secdiv{
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .imd-div2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 8px;
+    }
+    .img-div3{
+        display: flex;
+        align-items: center;
+         justify-content: center;
+         column-gap: 8px;
+    }
+    h3{
+        font-family: Arial;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0%;
+vertical-align: middle;
+
+    }
+    h4{
+        font-family: Arial;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 0%;
+vertical-align: middle;
+
+    }
+    h5{
+        font-family: Arial;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 0%;
+vertical-align: middle;
+
+    }
+    /* footer  */
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 70px;
+    }
+    h1{
+        width: 179px;
+height: 40px;
+border-radius: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+        background-color: #0D0C22;
+        color: #FFFFFF;
+        font-family: Arial;
+font-weight: 700;
+font-size: 12.7px;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+    }
